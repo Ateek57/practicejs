@@ -1,0 +1,6 @@
+//Qus11.  Given an array of strings, use map to create a new array where each string is converted to uppercase.
+let arr = ['arava','anam', 'ateek','danish']
+let result = arr.map((element)=>{
+    return element.toUpperCase()
+})
+console.log(result)
