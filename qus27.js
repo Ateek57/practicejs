@@ -1,9 +1,9 @@
-pr = new Promise((resolve, reject) => {
+pr1 = new Promise((resolve, reject) => {
     setTimeout(()=>{
         resolve("success")
 
     },100)
 })
-pr.then(function handler(value){
+pr1.then(function handler(value){
     console.log(value)
 })
