@@ -21,8 +21,8 @@ function promise2(data){
     })
 }
 
-pr=createpromise("www.xyz.com")
-pr.then((value)=>{
+pr1=createpromise("www.xyz.com")
+pr1.then((value)=>{
     console.log('data is downloaded successfully',value)
     return promise2(value)
 })
