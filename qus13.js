@@ -2,8 +2,8 @@
 
 let arr1 = [2,3,4]
 let arr2 = [5,6,7]
-const result = arr1.map((element1,index1)=>{
+const res = arr1.map((element1,index1)=>{
     return arr1[index1]*arr2[index1];
 })
-console.log(result)
+console.log(res)
     
