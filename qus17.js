@@ -2,13 +2,13 @@
 
 function string(arr){
     let specific = 'ee';
-    let result = arr.filter((element)=>{
+    let res = arr.filter((element)=>{
 
         if(element.includes(specific)){
             return element;
         }
     })
-    return result;
+    return res;
 
 
 }
