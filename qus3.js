@@ -1,9 +1,9 @@
 // qus3. Use forEach to double each element in an array and store the results in a new array.
 
 let arr = [2, 3, 4, 5]
-let results = []
+let res = []
 arr.forEach((element)=>{
-    results.push(element*element)
+    res.push(element*element)
 
 })
-console.log(results)
+console.log(res
